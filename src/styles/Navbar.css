@@ -1,0 +1,92 @@
+/* Top bar with logos and title */
+.topbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background-color: white;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.logo-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-left {
+  max-width: 100px;
+  height: auto;
+}
+
+.logo-right {
+  max-width: 200px;
+  height: auto;
+}
+
+.conference-details {
+  flex: 2;
+  text-align: center;
+}
+
+.main-title {
+  color: #000066;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin: 0;
+}
+
+.subtitle {
+  color: #ff6600;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+.mode {
+  color: #ff6600;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.sponsor {
+  font-size: 1rem;
+  color: #ff6600;
+}
+
+.record {
+  font-size: 1rem;
+  color: #ff6600;
+  margin-top: 4px;
+}
+
+/* Navigation bar below */
+.navbar {
+  background-color: #ffffff;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li a {
+  color: #000066;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: orange;
+}

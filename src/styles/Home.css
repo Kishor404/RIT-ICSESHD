@@ -1,0 +1,166 @@
+.home-section {
+  font-family: "Segoe UI", sans-serif;
+  color: #222;
+  background-color: #ffffff;
+  line-height: 1.6;
+}
+
+/* image-fluid */
+.img-fluid {
+  border-radius: 20px;
+  box-shadow: 0 10px 17px rgba(0, 0, 0, 0.334);
+}
+
+/* Top Header Section with Background */
+.intro {
+  background: url('images/472303822_1008971744581429_1869587318558672190_n.jpg') center/cover no-repeat;
+  color: #ffffff;
+  text-align: center;
+  padding: 80px 20px 100px 20px;
+  position: relative;
+}
+
+.intro h1 {
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.4);
+}
+
+.conference-subtitle {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.highlight {
+  font-weight: 700;
+  color: #ffeb3b;
+}
+
+.date-box {
+  background-color: #ffc107;
+  color: #222;
+  font-weight: 600;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 6px;
+  margin-top: 25px;
+  font-size: 1rem;
+  box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Conference Info Panel Section */
+.info-panel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #fff;
+  padding: 2rem 1rem;
+  border-top: 4px solid #fbc02d;
+  gap: 2rem;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-width: 280px;
+  max-width: 400px;
+  flex: 1;
+}
+
+.icon-wrap {
+  background-color: #ffe8b2;
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.icon-wrap img {
+  width: 32px;
+  height: 32px;
+}
+
+.info-text h3 {
+  margin: 0;
+  color: #000;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.info-text p {
+  margin: 0.5rem 0 0;
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+
+/* About Section Styling */
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2rem 1rem;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.about-box {
+  flex: 1;
+  min-width: 300px;
+  max-width: 600px;
+  background-color: #f1f5fb;
+  padding: 2rem;
+  text-align: justify;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.about-box h2,
+.departments-section h2 {
+  color: #000066;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about-box p
+.departments-section p {
+  color: #333;
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+.departments-section {
+  flex: 1;
+  background-color: #f1f5fb;
+  margin-left: 49px;
+  margin-right: 49px;
+  text-align: justify;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  .intro h1 {
+    font-size: 2rem;
+  }
+
+  .info-panel {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}

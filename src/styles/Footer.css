@@ -1,0 +1,82 @@
+.footer {
+  background-color: #ffffff;
+  color: #000033;
+  border-top: 4px solid #f39c12;
+  padding: 3rem 1rem 2rem;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+.footer-column h3 {
+  color: #000066;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  border-left: 4px solid #ff6600;
+  padding-left: 0.5rem;
+}
+
+.footer-column p,
+.footer-column ul li {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 0.5rem;
+  position: relative;
+  padding-left: 1.2rem;
+}
+
+.footer-column ul li::before {
+  content: '\25C6';
+  color: #ff6600;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.footer-column a {
+  text-decoration: none;
+  color: #000033;
+  transition: color 0.3s;
+}
+
+.footer-column a:hover {
+  color: #ff6600;
+}
+
+.footer-bottom {
+  text-align: center;
+  background-color: #000033;
+  color: #ffffff;
+  padding: 1rem;
+  font-size: 0.85rem;
+  border-top: 1px solid #fff;
+}
+
+/* Specific styles for map */
+.map-column iframe {
+  max-width: 100%;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+}
