@@ -1,7 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta http-equiv="refresh" content="0; url=/icseshd/" />
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <script type="text/javascript">
+      // Preserve the route after refresh
+      const redirectTo = window.location.pathname.replace("/icseshd", "") + window.location.search + window.location.hash;
+      window.location.replace("/icseshd/?" + redirectTo);
+    </script>
   </head>
-  <body></body>
+  <body>
+    <p>Redirecting…</p>
+  </body>
 </html>
