@@ -3,10 +3,11 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 20px 0px;
   background-color: white;
   flex-wrap: wrap;
   text-align: center;
+  width: 100%;
 }
 
 .logo-box {
@@ -35,38 +36,44 @@
   font-size: 2.5rem;
   font-weight: 800;
   margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .subtitle {
   color: #ff6600;
   font-size: 1.2rem;
-  font-weight: bold;
   margin: 5px 0;
+  font-family: "Poppins", sans-serif;
 }
 
 .mode {
-  color: #ff6600;
-  font-weight: bold;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
+  font-weight: bold;
 }
 
 .sponsor {
   font-size: 1rem;
   color: #ff6600;
+  font-family: "Poppins", sans-serif;
 }
 
 .record {
   font-size: 1rem;
   color: #ff6600;
   margin-top: 4px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Navigation bar below */
 .navbar {
-  background-color: #ffffff;
+  background-color: #ffc107;
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
+  font-family: "Poppins", sans-serif;
+  width: 100%;
 }
 
 .navbar-links {
@@ -80,13 +87,13 @@
 }
 
 .navbar-links li a {
-  color: #000066;
+  color: #000000;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 1rem;
   transition: all 0.3s ease;
 }
 
 .navbar-links li a:hover {
-  color: orange;
+  color: rgb(255, 255, 255);
 }

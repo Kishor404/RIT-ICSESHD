@@ -31,13 +31,13 @@ const Footer = () => {
         </div>
 
         {/* Map Section */}
-        <div className="footer-column map-column">
+        <div className="map-column">
           <h3>Nearby Attractions</h3>
           <iframe
             title="Tourist Spots near RIT"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3932.987438799583!2d77.5582318758376!3d9.476319390316803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06d0d4b567d3bb%3A0x25ef95cba2610e65!2sRamco%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1719646000000!5m2!1sen!2sin"
             width="100%"
-            height="200"
+            height="100%"
             style={{ border: 0, borderRadius: "8px", boxShadow: "0px 2px 6px rgba(0,0,0,0.2)" }}
             allowFullScreen=""
             loading="lazy"

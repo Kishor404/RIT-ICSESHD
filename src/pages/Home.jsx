@@ -5,14 +5,16 @@ const Home = () => {
   return (
     <div className="home-section">
       <section className="intro">
-        <h1>ICSESHD 2026</h1>
-        <p className="conference-subtitle">
-          3<sup>rd</sup> International Conference on Smart Engineering Solutions for Sustainable and Humanitarian Development
-        </p>
-        <p className="highlight">(Hybrid Mode)</p>
-        <p className="highlight">(Technically Co-sponsored by IEEE)</p>
-        <div className="date-box">
-          <strong>Date of Conference:</strong> 26<sup>th</sup> - 27<sup>th</sup> June 2026
+        <div className="fade-overlay"></div>
+        <div className="intro-cont">
+          <h1>ICSESHD 2026</h1>
+          <p className="conference-subtitle">
+            3<sup>rd</sup> International Conference on Smart Engineering Solutions for Sustainable and Humanitarian Development
+          </p>
+          <p className="highlight">Hybrid Mode | Technically Co-sponsored by IEEE</p>
+          <div className="date-box">
+            <strong>Date of Conference :</strong> 26<sup>th</sup> - 27<sup>th</sup> June 2026
+          </div>
         </div>
       </section>
 
@@ -45,7 +47,7 @@ const Home = () => {
 
       <section className="about-container">
         <div className="about-box">
-          <h2>About ICSESHD 2026 Conference</h2>
+          <h2>| ABOUT ICSESHD 2026 CONFERENCE</h2>
           <p>
             <strong>ICSESHD 2026</strong> is an International Conference on Smart Engineering Solutions for Sustainable and Humanitarian Development.International Conference on Smart Engineering Solutions for Sustainable and Humanitarian
             Development (ICSESHD 26) aims to serve as a premier platform for researchers,
@@ -69,7 +71,7 @@ const Home = () => {
         </div>
 
         <div className="about-box">
-          <h2>About Host Institute</h2>
+          <h2>| ABOUT HOST INSTITUTE</h2>
           <p>
             Ramco Institute of Technology (RIT) was established in the year 2013 by the
             esteemed Shri. P. R. Ramasubrahmaneya Rajha, Chairman of the Ramco Group, with a
@@ -83,12 +85,15 @@ const Home = () => {
             as a beacon of excellence, nurturing future-ready engineers and innovators committed to
             building a sustainable and intelligent future.
           </p>
-          <img src="images/unnamed.jpg" alt="rit-campus" height="250px" width="600px" class="img-fluid" />
+          <div className="img-fluid">
+            <img src="images/college2.jpg" alt="rit-campus"/>
+          </div>
+          
         </div>
       </section>
 
       <section className="departments-section">
-        <h2>About the Departments</h2>
+        <h2>| ABOUT THE DEPARTMENT</h2>
         <div className="department-box">
           <h3>Department of CSBS, ECE and Mechanical Engineering</h3>
             <p>International Conference on Smart Engineering Solutions for Sustainable and

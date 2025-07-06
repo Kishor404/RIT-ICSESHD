@@ -2,8 +2,14 @@
   background-color: #ffffff;
   color: #000033;
   border-top: 4px solid #f39c12;
-  padding: 3rem 1rem 2rem;
+  padding: 3rem 1rem 0rem;
   font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-content {
@@ -12,11 +18,18 @@
   justify-content: space-around;
   gap: 2rem;
   margin-bottom: 2rem;
+  width: 90%;
+  
 }
 
 .footer-column {
   flex: 1;
   min-width: 250px;
+  
+}
+.map-column{
+  width: 30%;
+  height: 300px;
 }
 
 .footer-column h3 {
@@ -25,6 +38,7 @@
   margin-bottom: 1rem;
   border-left: 4px solid #ff6600;
   padding-left: 0.5rem;
+
 }
 
 .footer-column p,
@@ -68,9 +82,11 @@
   text-align: center;
   background-color: #000033;
   color: #ffffff;
-  padding: 1rem;
+  padding: 1rem 0px;
   font-size: 0.85rem;
   border-top: 1px solid #fff;
+  width: 100%;
+  margin-top: 20px;
 }
 
 /* Specific styles for map */
