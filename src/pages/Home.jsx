@@ -1,5 +1,8 @@
 import React from "react";
 import "../styles/Home.css";
+import DateImg from "../assets/images/date.jpg";
+import VenueImg from "../assets/images/venue.png";
+import College2Img from "../assets/images/college2.jpg"
 
 const Home = () => {
   return (
@@ -21,7 +24,7 @@ const Home = () => {
       <section className="info-panel">
         <div className="info-block">
           <div className="icon-wrap">
-            <img src="images/kisspng-computer-icons-symbol-download-5b0220275e3106.0003438315268659593858.jpg" alt="Date Icon" />
+            <img src={DateImg} alt="Date Icon" />
           </div>
           <div className="info-text">
             <h3>Date of Conference</h3>
@@ -31,7 +34,7 @@ const Home = () => {
 
         <div className="info-block">
           <div className="icon-wrap">
-            <img src="images/png-transparent-woof-bklyn-information-computer-software-service-location-icon-miscellaneous-service-orange.png" alt="Location Icon" />
+            <img src={VenueImg} alt="Location Icon" />
         </div>
         <div className="info-text">
           <h3>Venue</h3>
@@ -86,7 +89,7 @@ const Home = () => {
             building a sustainable and intelligent future.
           </p>
           <div className="img-fluid">
-            <img src="images/college2.jpg" alt="rit-campus"/>
+            <img src={College2Img} alt="rit-campus"/>
           </div>
           
         </div>

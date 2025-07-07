@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import RamcoLogo from "../assets/images/Ramco-logo.jpg"
+import IEEELogo from "../assets/images/ieee-logo.png"
 
 const Navbar = () => {
   return (
     <>
       <div className="topbar-container">
         <div className="logo-box">
-          <img src="images/Ramco-logo.jpg" alt="College Logo" className="logo-left" />
+          <img src={RamcoLogo} alt="College Logo" className="logo-left" />
         </div>
 
         <div className="conference-details">
@@ -19,7 +21,7 @@ const Navbar = () => {
         </div>
 
         <div className="logo-box">
-          <img src="./images/ieee-logo.png" alt="IEEE Logo" className="logo-right" />
+          <img src={IEEELogo} alt="IEEE Logo" className="logo-right" />
         </div>
       </div>
 

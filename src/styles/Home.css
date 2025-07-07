@@ -27,7 +27,7 @@
 
 /* Top Header Section with Background */
 .intro {
-  background: url('images/college.jpg') center/cover no-repeat;
+  background: url('../assets/images/college.jpg') center/cover no-repeat;
   color: #ffffff;
   text-align: center;
   position: relative;
