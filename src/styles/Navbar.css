@@ -97,3 +97,161 @@
 .navbar-links li a:hover {
   color: rgb(255, 255, 255);
 }
+
+@media screen and (max-width: 1250px) {
+  .navbar-links li a{
+    font-size: 11pt;
+  }
+  .navbar-links{
+    gap:30px;
+  }
+  .subtitle{
+    font-size: 13pt;
+  }
+  .mode{
+    font-size: 12pt;
+  }
+  .main-title{
+    font-size: 25pt;
+  }
+}
+@media screen and (max-width: 970px){
+  .navbar-links li a{
+    font-size: 10pt;
+  }
+  .navbar-links{
+    gap:20px;
+  }
+  .subtitle{
+    font-size: 11pt;
+  }
+  .mode{
+    font-size: 10pt;
+  }
+  .main-title{
+    font-size: 20pt;
+  }
+}
+
+@media screen and (max-width: 770px){
+  .navbar-links li a{
+    font-size: 9pt;
+  }
+  .navbar-links{
+    gap:20px;
+  }
+  .subtitle{
+    font-size: 10pt;
+  }
+  .mode{
+    font-size: 9pt;
+  }
+  .main-title{
+    font-size: 18pt;
+  }
+  .logo-right{
+    max-width: 170px;
+    height: auto;
+  }
+  .logo-left{
+    max-width: 80px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .logo-right{
+    max-width: 100px;
+  }
+  .logo-left {
+    max-width: 60px;
+  }
+  .navbar-links li a{
+    font-size: 5pt;
+  }
+  .navbar-links{
+    gap:20px;
+  }
+  .subtitle{
+    font-size: 7pt;
+  }
+  .mode{
+    font-size: 6pt;
+  }
+  .main-title{
+    font-size: 14pt;
+  }
+  .navbar{
+    padding: 10px 0;
+  }
+  .navbar-links li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-links{
+    gap: 15px;
+  }
+}
+
+
+@media screen and (max-width: 410px){
+  .logo-right{
+    max-width: 80px;
+  }
+  .logo-left {
+    max-width: 40px;
+  }
+  .navbar-links li a{
+    font-size: 5pt;
+  }
+  .navbar-links{
+    gap:20px;
+  }
+  .subtitle{
+    font-size: 6.5pt;
+  }
+  .mode{
+    font-size: 5pt;
+  }
+  .main-title{
+    font-size: 12pt;
+  }
+  .navbar{
+    padding: 10px 0;
+  }
+  .navbar-links li{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-links{
+    gap: 10px;
+  }
+}
+
+@media screen and (max-width: 360px){
+  .logo-right{
+    max-width: 60px;
+  }
+  .logo-left {
+    max-width: 30px;
+  }
+  .navbar-links li a{
+    font-size: 4.5pt;
+  }
+  .navbar-links{
+    gap:7px;
+  }
+  .subtitle{
+    font-size: 5pt;
+  }
+  .mode{
+    font-size: 4.5pt;
+  }
+  .main-title{
+    font-size: 10pt;
+  }
+}

@@ -13,3 +13,10 @@
   padding: 20px;
   background-color: #fff;
 }
+
+
+@media screen and (max-width: 410px){
+  .content-wrap{
+    padding: 0;
+  }
+}

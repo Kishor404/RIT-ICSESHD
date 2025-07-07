@@ -96,3 +96,19 @@
   border-radius: 8px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+@media screen and (max-width: 970px){
+  .map-column{
+    width: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media screen and (max-width: 660px){
+  .footer-bottom p{
+    font-size: 8pt;
+  }
+  .footer-column p, .footer-column ul li{
+    font-size: 10pt;
+  }
+}
