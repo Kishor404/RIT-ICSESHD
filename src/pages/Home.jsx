@@ -10,10 +10,13 @@ const Home = () => {
       <section className="intro">
         <div className="fade-overlay"></div>
         <div className="intro-cont">
-          <h1>ICSESHD 2026</h1>
           <p className="conference-subtitle">
-            3<sup>rd</sup> International Conference on Smart Engineering Solutions for Sustainable and Humanitarian Development
+            1<sup>st</sup> International Conference on Smart Engineering Solutions for Sustainable and Humanitarian Development
           </p>
+          <h1>ICSESHD 2026</h1>
+          {/* <p className="conference-subtitle">
+            3<sup>rd</sup> International Conference on Smart Engineering Solutions for Sustainable and Humanitarian Development
+          </p> */}
           <p className="highlight">Hybrid Mode | Technically Co-sponsored by IEEE</p>
           <div className="date-box">
             <strong>Date of Conference :</strong> 26<sup>th</sup> - 27<sup>th</sup> June 2026
