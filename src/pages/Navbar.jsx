@@ -49,7 +49,6 @@ const Navbar = () => {
           <li><Link to="/callforpapers">CALL FOR PAPERS</Link></li>
           <li><Link to="/importantdates">IMPORTANT DATES</Link></li>
           <li><Link to="/registration">REGISTRATION</Link></li>
-          <li><Link to="/program">PROGRAM SCHEDULE</Link></li>
         </ul>
       </nav>
       

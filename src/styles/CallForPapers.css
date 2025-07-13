@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+.call-for-papers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+}
+.call-for-papers h2{
+    border-left: 6px solid #fbc02d;
+    padding: 0px 20px;
+}
+
+.call-for-papers-cont{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cfp-all-track{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    width: 100%;
+}
+.cfp-track{
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 20px;
+}
+.cfp-track h4{
+    padding-left: 10px;
+    text-transform: uppercase;
+    border-left: 4px solid #fbc02d;
+    margin-left: 10px;
+}
+.cfp-track ul li{
+    padding: 5px 0px;
+}
+.cfp-para{
+    padding: 20px 0px;
+    font-size: 14pt;
+}
+.cfp-para p span{
+    font-size: 24pt;
+    font-weight:500;
+    padding-left: 20px;
+}
+.cfp-submit{
+    background-color: #fbc02d;
+    padding: 20px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+}
+.cfp-submit:hover{
+    color: white;
+}
+.gta-cont{
+    padding: 20px 0px;
+}
+.gta-cont h3{
+    border-left: 4px solid #fbc02d;
+    padding: 0px 20px;
+}
+.gta-cont p{
+    padding: 20px 0px 0px 0px;
+}

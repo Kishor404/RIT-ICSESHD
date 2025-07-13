@@ -1,16 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .registration-page {
   display: flex;
   justify-content: center;
   padding: 2rem 1rem;
   background-color: #f5f7fa;
+  font-family: "Poppins", sans-serif;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
 }
 
 .registration-card {
-  max-width: 500px;
-  width: 100%;
+  width: 90%;
   background: white;
   border: 1px solid #dde2eb;
-  padding: 2rem;
+  margin: 30px 0;
+  padding: 2rem ;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
@@ -66,4 +72,24 @@
   border-radius: 4px;
   color: #2e7d32;
   font-weight: 600;
+}
+
+.rp-table{
+  padding: 20px 20px;
+  text-align: center;
+}
+.rp-table h3{
+  padding: 20px 0;
+}
+.rp-table table{
+  background-color: #fffaee;
+  width: 100%;
+  border-collapse: collapse;
+}
+.rp-table table td,th{
+  padding: 20px;
+  border: 2px solid black;
+}
+.rp-table th{
+  background-color: #fbc02d;
 }

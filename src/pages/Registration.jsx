@@ -24,6 +24,46 @@ const Registration = () => {
 
   return (
     <div className="registration-page">
+      <div className="rp-table">
+        <h3>REGISTRATION FEE DETAILS</h3>
+        <table>
+          <tr>
+            <th>Category</th>
+            <th>Indian Delegates<br/>(Non-IEEE)</th>
+            <th>Indian Delegates<br/>(IEEE)</th>
+            <th>Foreign Delegates<br/>(Non-IEEE)</th>
+            <th>Foreign Delegates<br/>(IEEE)</th>
+          </tr>
+          <tr>
+            <td>Industry Experts</td>
+            <td>11,000 INR + 18% GST</td>
+            <td>11,000 INR + 18% GST</td>
+            <td>130 USD + 18% GST</td>
+            <td>130 USD + 18% GST</td>
+          </tr>
+          <tr>
+            <td>Academicians</td>
+            <td>9,000 INR + 18% GST</td>
+            <td>8,000 INR + 18% GST</td>
+            <td>110 USD + 18% GST</td>
+            <td>95 USD + 18% GST</td>
+          </tr>
+          <tr>
+            <td>Research Scholars</td>
+            <td>8,000 INR + 18% GST</td>
+            <td>7,000 INR + 18% GST</td>
+            <td>95 USD + 18% GST</td>
+            <td>85 USD + 18% GST</td>
+          </tr>
+          <tr>
+            <td>Attendees</td>
+            <td>3,000 INR + 18% GST</td>
+            <td>3,000 INR + 18% GST</td>
+            <td>40 USD + 18% GST</td>
+            <td>40 USD + 18% GST</td>
+          </tr>
+        </table>
+      </div>
       <div className="registration-card">
         <h2>Conference Registration</h2>
         {!submitted ? (

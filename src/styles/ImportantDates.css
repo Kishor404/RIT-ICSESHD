@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.ImpDate{
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.ImpDate h2{
+    text-transform: uppercase;
+    padding: 0px 20px;
+    border-left: 4px solid #fbc02d;
+}
+
+.id-table{
+    width: 60%;
+    margin: 40px 0;
+}
+.ImpDate table{
+    background-color: #ffffd4;
+    width: 100%;
+    border-collapse: collapse;
+}
+.ImpDate table td{
+    padding: 20px;
+    border: 2px solid black;
+}
+.id-date{
+    text-align: center;
+    padding: 0;
+}
+.id-pap{
+    width: 80%;
+}
+.id-pap h3{
+    padding: 0 20px;
+    border-left: 4px solid #fbc02d;
+}
+.id-pap span{
+    font-weight: 600;
+}
