@@ -41,3 +41,82 @@
 .id-pap span{
     font-weight: 600;
 }
+
+@media (max-width: 768px) {
+    .id-table{
+        width: 90%;
+    }
+    .id-pap{
+        width: 90%;
+    }
+    .ImpDate h2{
+        font-size: 14pt;
+    }
+    .id-pap h3{
+        font-size: 12pt;
+    }
+    .id-pap ul li{
+        text-align: justify;
+    }
+}
+@media (max-width: 530px) {
+    .ImpDate table td{
+        padding: 15px;
+    }
+}
+@media (max-width: 503px) {
+    .ImpDate table td{
+        font-size: 10pt;
+        padding: 10px;
+    }
+    .id-pap ul li{
+        font-size: 10pt;
+    }
+}
+@media (max-width: 425px) {
+    .id-table{
+        width: 95%;
+    }
+    .id-pap{
+        width: 90%;
+    }
+    .ImpDate h2{
+        font-size: 12pt;
+    }
+    .id-pap h3{
+        font-size: 10pt;
+    }
+    .ImpDate h2{
+        margin-top: 20px;
+    }
+    .id-table{
+        margin-top:15px;
+    }
+}
+@media (max-width: 356px) {
+    .ImpDate table td{
+        font-size: 8pt;
+        padding: 5px;
+    }
+    .id-table{
+        width: 90%;
+    }
+    .id-pap{
+        width: 85%;
+    }
+    .ImpDate h2{
+        font-size: 10pt;
+    }
+    .id-pap h3{
+        font-size: 8pt;
+    }
+    .ImpDate h2{
+        margin-top: 20px;
+    }
+    .id-table{
+        margin-top:15px;
+    }
+    .id-pap ul li{
+        font-size: 7pt;
+    }
+}

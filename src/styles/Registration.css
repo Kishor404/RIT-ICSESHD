@@ -93,3 +93,83 @@
 .rp-table th{
   background-color: #fbc02d;
 }
+
+@media (max-width: 800px) {
+  .rp-table table{
+    font-size: 10pt;
+  }
+  .rp-table{
+    padding: 10px;
+  }
+  .rp-table table td, th{
+    padding: 15px;
+  }
+  
+}
+@media (max-width: 700px) {
+  .rp-table table{
+    font-size: 9pt;
+  }
+  
+}
+@media (max-width: 650px) {
+  .rp-table table{
+    font-size: 8pt;
+  }
+  
+}
+@media (max-width: 600px) {
+  .rp-table table{
+    font-size: 7pt;
+  }
+  .rp-table{
+    padding: 10px 8px;
+  }
+  .rp-table table td, th{
+    padding: 12px;
+  }
+  
+}
+@media (max-width: 550px) {
+  .rp-table table{
+    font-size: 6pt;
+  }
+  .rp-table{
+    padding: 0px 6px;
+  }
+  .rp-table table td, th{
+    padding: 10px;
+  }
+  .rp-table h3{
+    font-size: 12pt;
+    padding: 10px 0px;
+  }
+  .registration-card h2{
+    font-size: 14pt;
+  }
+  .registration-card form{
+    font-size: 10pt;
+  }
+  .registration-card button{
+    font-size: 10pt;
+  }
+  
+}
+@media (max-width: 375px) {
+  .rp-table table{
+    font-size: 5pt;
+  }
+  .rp-table{
+    padding: 0px 6px;
+  }
+  .rp-table table td, th{
+    padding: 8px;
+  }
+  .rp-table h3{
+    font-size: 10pt;
+    padding: 10px 0px;
+  }
+  .registration-card form input{
+    width: 95%;
+  }
+}

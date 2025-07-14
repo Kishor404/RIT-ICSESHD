@@ -44,6 +44,7 @@
 .cfp-para{
     padding: 20px 0px;
     font-size: 14pt;
+    text-align: justify;
 }
 .cfp-para p span{
     font-size: 24pt;
@@ -72,4 +73,85 @@
 }
 .gta-cont p{
     padding: 20px 0px 0px 0px;
+    text-align: justify;
+}
+
+@media (max-width: 1150px) {
+    .call-for-papers-cont{
+        width: 90%;
+    }
+    .cfp-para p{
+        font-size: 12pt;
+    }
+    .cfp-para p span{
+        font-size: 20pt;
+    }
+    
+}
+
+@media (max-width: 800px) {
+    .cfp-all-track{
+        grid-template-columns: auto;
+    }
+    .cfp-track{
+        margin-bottom: 20px;
+    }
+    .cfp-para p{
+        font-size: 10pt;
+    }
+    .cfp-para p span{
+        font-size: 16pt;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    .gta-cont p{
+        font-size: 10pt;
+    }
+    .cfp-track ul li{
+        font-size: 10pt;
+    }
+    .cfp-track h4{
+        font-size: 10pt;
+    }
+    .call-for-papers h2{
+        font-size: 14pt;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+    .cfp-submit{
+        font-size: 10pt;
+    }
+}
+@media (max-width: 375px) {
+    .gta-cont p{
+        font-size: 8pt;
+    }
+    .cfp-track ul li{
+        font-size: 8pt;
+    }
+    .cfp-track h4{
+        font-size: 9pt;
+    }
+    .cfp-para p{
+        font-size: 8pt;
+    }
+    .cfp-para p span{
+        font-size: 14pt;
+    }
+    .call-for-papers h2{
+        font-size: 12pt;
+        margin-bottom: 0px;
+        margin-top: 30px;
+    }
+    .gta-cont h3{
+        font-size: 12pt;
+    }
+    .cfp-submit{
+        font-size: 10pt;
+    }
+    .cfp-track{
+        padding: 10px;
+    }
 }
