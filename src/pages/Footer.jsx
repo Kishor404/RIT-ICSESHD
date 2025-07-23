@@ -10,9 +10,9 @@ const Footer = () => {
         {/* Contact Us */}
         <div className="footer-column">
           <h3>Contact Us</h3>
-          <p><strong>Dr.S.Erana Veerappa Dinesh, Associate Professor/CSBS</strong><br/>dinesh@ritrjpm.ac.in<br/>Mobile : +91 9843738684</p>
+          <p><strong>Dr.M.Lakshmanan, Associate Professor (SG)/Mech</strong><br/>lakshmanan@ritrjpm.ac.in<br/>Mobile : +91 7598835844</p>
           <p><strong>Dr.A.Azhagu Jaisudhan Pazhani, Associate Professor/ECE</strong><br/>azhagujaisudhan@ritrjpm.ac.in, <br/>Mobile : +91 9443696072, +91 8524856684</p>
-          <p><strong>Dr.M.Lakshmanan, Associate Professor (S.G)/Mech</strong><br/>lakshmanan@ritrjpm.ac.in<br/>Mobile : +91 7598835844</p>
+          <p><strong>Dr.S.Erana Veerappa Dinesh, Associate Professor/CSBS</strong><br/>dinesh@ritrjpm.ac.in<br/>Mobile : +91 9843738684</p>
           <p><strong>Ramco Institute of Technology</strong><br/>North Venganallur, Rajapalayam<br/>Virudhunagar - 626117<br/>Tamil Nadu, India</p>
         </div>
 

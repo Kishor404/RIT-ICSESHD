@@ -85,7 +85,7 @@ const Committee = () => {
               <ul>
                 <li>Dr. C. Arunachalaperumal, Professor & Head/ECE, RIT</li>
                 <li>Dr.M.GomathyNayagam,Associate Professor & Head/CSBS,RIT</li>
-                <li>Dr.M.Lakshmanan, Associate Professor/Mech,RIT</li>
+                <li>Dr.M.Lakshmanan, Associate Professor (SG)/Mech,RIT</li>
               </ul>
             </li>
             <li><strong>Conference Treasurer : </strong>Mr.S.ValaiGanesh,Assistant Professor(SG)/Mech,RIT</li>
