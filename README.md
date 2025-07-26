@@ -66,7 +66,8 @@ Each department brings specialized labs and research capabilities in:
 
 - **Frontend**: React 18  
 - **Build Tool**: Vite  
-- **Styling**: CSS3, Google Fonts  
+- **Styling**: CSS3, Google Fonts
+- **Development**: [rit-icseshd.vercel.app](https://rit-icseshd.vercel.app)
 - **Deployment**: [riticseshd.in](https://riticseshd.in)
 
 ---
