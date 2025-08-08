@@ -72,6 +72,13 @@ Each department brings specialized labs and research capabilities in:
 
 ---
 
+## Meet The Team
+
+- KISHOR T [@Kishor404](https://github.com/Kishor404)
+- NITHISHKANNAN G [@Nithishkannan-Ganesan](https://github.com/Nithishkannan-Ganesan)
+
+---
+
 ## Getting Started
 
 ### 1. Clone the repository
