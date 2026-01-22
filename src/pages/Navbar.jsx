@@ -21,7 +21,7 @@ const Navbar = () => {
         </div>
 
         <div className="logo-box">
-          <img src={IEEELogo} alt="IEEE Logo" className="logo-right" />
+          <img src={IEEELogo} alt="IEEE Logo" className="logo-right" hidden/>
         </div>
       </div>
 
